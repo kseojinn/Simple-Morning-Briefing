@@ -5,8 +5,8 @@ import json
 
 def get_news_headlines():
     # 네이버 개발자 센터에서 발급받은 API 키 입력
-    client_id = "rXrsRKFlflMjL3Vm1VP4"
-    client_secret = "rdKxzozaql"
+    client_id = ""
+    client_secret = ""
     
     # 경제 뉴스 검색 (display=5는 5개 결과 요청)
     query = urllib.parse.quote("경제")
