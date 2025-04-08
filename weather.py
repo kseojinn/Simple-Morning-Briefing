@@ -8,7 +8,7 @@ def get_weather_data(nx=60, ny=127):  # 서울 기준 좌표
     base_time = "0500"  # 05시 발표 자료
     
     # 디코딩된 키를 사용 (정상 작동 확인됨)
-    decoded_key = "7PjattrxPKa0He1GbJAlAAFpR/txSIyaIRwuCwEgQZCxRyh42Y3LYWWn0vrh7rovkK753c8cOqnqOeGQly/SqQ=="
+    decoded_key = ""
     
     try:
         # API 요청
